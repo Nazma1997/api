@@ -1,0 +1,38 @@
+{
+  "name": "mern-cms",
+  "version": "1.0.0",
+  "description": "A MERN-based CMS module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazma1997/api.git"
+  },
+  "keywords": [
+    "mern",
+    "cms"
+  ],
+  "author": "Nazma Akter <nazma.ist.707@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "bugs": {
+    "url": "https://github.com/Nazma1997/api/issues"
+  },
+  "homepage": "https://github.com/Nazma1997/api#readme"
+}
